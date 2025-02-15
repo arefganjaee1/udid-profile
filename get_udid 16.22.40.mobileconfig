@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.security.mobileconfig</string>
+            <key>PayloadDisplayName</key>
+            <string>UDID Collector</string>
+            <key>PayloadIdentifier</key>
+            <string>com.yourcompany.udidprofile</string>
+            <key>PayloadUUID</key>
+            <string>12345678-1234-5678-1234-567812345678</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>PayloadOrganization</key>
+            <string>Your Company</string>
+        </dict>
+    </array>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadIdentifier</key>
+    <string>com.yourcompany.udid</string>
+    <key>PayloadUUID</key>
+    <string>ABCD-1234-EFGH-5678-IJKL-9876543210AB</string>
+    <key>PayloadDisplayName</key>
+    <string>Get UDID</string>
+    <key>PayloadDescription</key>
+    <string>This profile collects UDID for app installation.</string>
+    <key>PayloadOrganization</key>
+    <string>Your Company</string>
+    <key>PayloadURL</key>
+    <string>https://webhook.site/163a3db7-522a-43e2-afeb-a2aba724a6ea</string>
+</dict>
+</plist>
+
